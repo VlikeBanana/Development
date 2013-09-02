@@ -1,0 +1,4 @@
+#!/sbin/sh
+
+echo "# Remove 60fps lock" >> /system/build.prop
+echo "debug.egl.swapinterval=0" >> /system/build.prop
